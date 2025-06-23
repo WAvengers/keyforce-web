@@ -1,0 +1,15 @@
+{
+  "name": "keyforce-monorepo",
+  "private": true,
+  "version": "1.0.0",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:frontend": "pnpm --filter client dev",
+    "dev:backend-api": "pnpm --filter api start:dev",
+    "dev:battle": "pnpm --filter battle start",
+    "build": "pnpm -r build"
+  }
+} 
