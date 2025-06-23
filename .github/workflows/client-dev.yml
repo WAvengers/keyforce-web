@@ -41,9 +41,11 @@ jobs:
           pnpm install
           pnpm build:client
       - name: Upload artifact
-        uses: JamesIves/github-pages-deploy-action@v4
+        uses: actions/upload-pages-artifact@v3
         with:
-          folder: apps/client/dist/
+          path:
+            apps/client/dist/
+            apps/client/dist/assets/
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
