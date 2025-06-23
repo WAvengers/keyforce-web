@@ -2,12 +2,14 @@
 
 This monorepo contains the following projects:
 
-- **apps/frontend**: Frontend application (e.g., React/Next.js)
-- **apps/backend**: Backend application (e.g., Express/NestJS)
+- **apps/client**: Frontend application (React, TypeScript, Vite, TailwindCSS, ESLint, Phaser)
+- **apps/api**: Backend API application
+- **apps/battle**: Battle server
 - **packages/library**: Shared library code (e.g., TypeScript utilities)
 
 ## Getting Started
 
 - Install dependencies: `pnpm install`
-- Run frontend: `pnpm dev:frontend`
-- Run backend: `pnpm dev:backend`
+- Run battle: `pnpm dev:battle`
+- Run backend API: `pnpm dev:backend-api`
+- Run Web client: `pnpm dev:client`
