@@ -10,6 +10,8 @@
     "dev:client": "pnpm --filter client dev",
     "dev:api": "pnpm --filter api start:dev",
     "dev:battle": "pnpm --filter battle start",
-    "build": "pnpm -r build"
+    "build:client": "pnpm --filter client build",
+    "build:api": "pnpm --filter api build",
+    "build:battle": "pnpm --filter battle build"
   }
 } 
