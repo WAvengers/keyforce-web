@@ -7,8 +7,8 @@
     "packages/*"
   ],
   "scripts": {
-    "dev:frontend": "pnpm --filter client dev",
-    "dev:backend-api": "pnpm --filter api start:dev",
+    "dev:client": "pnpm --filter client dev",
+    "dev:api": "pnpm --filter api start:dev",
     "dev:battle": "pnpm --filter battle start",
     "build": "pnpm -r build"
   }

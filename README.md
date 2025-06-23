@@ -11,5 +11,5 @@ This monorepo contains the following projects:
 
 - Install dependencies: `pnpm install`
 - Run battle: `pnpm dev:battle`
-- Run backend API: `pnpm dev:backend-api`
+- Run backend API: `pnpm dev:api`
 - Run Web client: `pnpm dev:client`
