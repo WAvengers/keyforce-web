@@ -45,7 +45,6 @@ jobs:
         with:
           path:
             apps/client/dist/
-            apps/client/dist/assets/
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
